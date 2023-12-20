@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "seo-app"
+client_id = "c597ebf7fdc0bdde12b82bf5ae28e093"
+application_url = "https://latino-lloyd-from-quarter.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://latino-lloyd-from-quarter.trycloudflare.com/auth/callback",
+  "https://latino-lloyd-from-quarter.trycloudflare.com/auth/shopify/callback",
+  "https://latino-lloyd-from-quarter.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "dummy-data-for-test.myshopify.com"
