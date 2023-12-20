@@ -2,7 +2,7 @@
 
 name = "seo-app"
 client_id = "c597ebf7fdc0bdde12b82bf5ae28e093"
-application_url = "https://latino-lloyd-from-quarter.trycloudflare.com"
+application_url = "https://agency-replaced-threat-report.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://latino-lloyd-from-quarter.trycloudflare.com/auth/callback",
-  "https://latino-lloyd-from-quarter.trycloudflare.com/auth/shopify/callback",
-  "https://latino-lloyd-from-quarter.trycloudflare.com/api/auth/callback"
+  "https://agency-replaced-threat-report.trycloudflare.com/auth/callback",
+  "https://agency-replaced-threat-report.trycloudflare.com/auth/shopify/callback",
+  "https://agency-replaced-threat-report.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
